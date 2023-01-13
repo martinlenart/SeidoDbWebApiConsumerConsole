@@ -13,9 +13,13 @@ namespace SeidoDbWebApiConsumer
     {
         static void Main(string[] args)
         {
+            //Try also:
             //SQLite Database, SQLServer Database, MariaDb Database
-            //var ServiceUri = "https://ws8.seido.se, https://ws7.seido.se, https://ws6.seido.se".Split(',');
-            var ServiceUri = "https://localhost:44340".Split(',');
+            var ServiceUri = "https://ws8.seido.se, https://ws7.seido.se, https://ws6.seido.se".Split(',');
+
+            //Try also:
+            //localhost
+            //var ServiceUri = "https://localhost:5001".Split(',');
 
             foreach (var su in ServiceUri)
             {
